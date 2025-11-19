@@ -13,7 +13,7 @@ export default function Home() {
   const [copied, setCopied] = useState(false);
 
   // API Configuration
-  const API_BASE = "http://127.0.0.1:5000";
+  const API_BASE = "https://goffycoder-ai-writer-backend.hf.space";
 
   // Helper to handle API calls
   const handleAction = async (action: "paraphrase" | "summarize") => {
